@@ -6,6 +6,8 @@ Each release's section becomes the notes of its GitHub Release (`tools/release_n
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-10-27
+
 ### Added
 - **The starter, extracted from [paulshannon/game](https://github.com/paulshannon/game)** at `17d86a8` (its v0.1.1 plus later develop work): everything except the space game and its Kenney packs. For the history of each piece, see that repo's CHANGELOG.
   - Networking: `Net` (WebSocket transport), `Protocol`, `LaunchConfig` (command line and page URL), `InputRelay` (sender checks, stale and timed-out input), `Replication`, `BotInput`.
