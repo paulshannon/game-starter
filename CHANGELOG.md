@@ -13,3 +13,4 @@ Each release's section becomes the notes of its GitHub Release (`tools/release_n
   - Client: `SnapshotBuffer` / `SnapshotClock` interpolation on the server timeline, `StateTimeline`, input actions with keyboard and controller defaults, remapping (`InputBindings`, `ControlsEditor`), touch stick and action button, `Hud`, `GameMenu`.
   - Two skeleton games to copy: `box_arena_2d` (the default) and `box_arena_3d`.
   - Tests (`TestCase` runner with error capture), every `tools/` command, `deploy/` (Caddy, systemd, Docker) and CI / release workflows.
+- `GameBase.touch_stick()`: a game that reads taps on the board (a turn-based game, say) returns false to drop the touch stick, so taps on the left half reach the game; the action button and Menu button still work. Ported from paulshannon/tiny-flag.
